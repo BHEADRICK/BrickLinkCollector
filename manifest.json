@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "BrickLink Collector",
+  "description": "Maintain a private lego inventory using BrickLink",
+  "version": "1.0",
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
